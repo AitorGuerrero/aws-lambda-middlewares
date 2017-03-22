@@ -1,6 +1,6 @@
 import Handler from './handler.interface';
 
-interface Transformer<E, R>{
+export interface Transformer<E, R>{
 	(error: Error, event: E, r: R, ct: {awsRequestId: string}): Promise<any>;
 }
 

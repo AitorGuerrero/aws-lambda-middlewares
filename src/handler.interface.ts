@@ -1,8 +1,8 @@
-interface Callback<Response> {
+export interface Callback<Response> {
 	(error?: Error, response?: Response): void;
 }
 
-interface Context {
+export interface Context {
 	awsRequestId: string;
 }
 
