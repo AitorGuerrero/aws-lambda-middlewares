@@ -1,0 +1,29 @@
+{
+  "name": "aws-lambda-middlewares",
+  "version": "1.0.0",
+  "description": "Some middleware utils for composing lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AitorGuerrero/aws-lambda-middlewares.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "middleware"
+  ],
+  "author": "Aitor Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AitorGuerrero/aws-lambda-middlewares/issues"
+  },
+  "homepage": "https://github.com/AitorGuerrero/aws-lambda-middlewares#readme",
+  "dependencies": {
+    "typescript": "^2.2.1"
+  }
+}

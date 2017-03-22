@@ -1,0 +1,9 @@
+# Builds
+src/*.js
+src/*.js.map
+
+# IDE
+.idea
+
+# Dependencies
+node_modules
