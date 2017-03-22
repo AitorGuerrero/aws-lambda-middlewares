@@ -1,6 +1,6 @@
 import Handler from './handler.interface';
 
-export default function beforeMiddleware<OriginalEvent, TransformedEvent, Response>(
+export function beforeMiddleware<OriginalEvent, TransformedEvent, Response>(
 	handler: Handler<TransformedEvent, Response>,
 	transform: (event: OriginalEvent) => Promise<TransformedEvent>,
 ): Handler<OriginalEvent,  Response> {

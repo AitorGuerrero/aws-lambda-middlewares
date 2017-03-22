@@ -4,7 +4,7 @@ export interface Transformer<E, R>{
 	(error: Error, event: E, r: R, ct: {awsRequestId: string}): Promise<any>;
 }
 
-export default function onErrorMiddleware<Event, Response>(
+export function onErrorMiddleware<Event, Response>(
 	handler: Handler<Event, Response>,
 	transform: Transformer<Event, Response>,
 ): Handler<Event,  Response> {
