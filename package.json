@@ -2,8 +2,8 @@
   "name": "aws-lambda-middlewares",
   "version": "1.0.5",
   "description": "Some middleware utils for composing lambda functions",
-  "main": "lib/index.js",
-  "types": "lib/index",
+  "main": "dist/index.js",
+  "types": "dist/index",
   "files": [
     "dist/"
   ],
